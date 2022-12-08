@@ -1,9 +1,10 @@
 import React from "react";
 import "./styles/home.css";
 import video1 from "../media/Cows8.mp4";
-// import video2 from "../media/Cows9.mp4";
-import {TbStethoscope, TbDna2} from "react-icons/tb"
-import {SiHomeadvisor} from "react-icons/si"
+import research from "../media/research.png";
+import {TbStethoscope, TbDna2} from "react-icons/tb";
+import {SiHomeadvisor} from "react-icons/si";
+import {HiArrowNarrowRight} from "react-icons/hi";
 
 
 export default function Home(){
@@ -23,32 +24,38 @@ export default function Home(){
                 <h3>We provide the best services</h3>
                 <div className="serv_card_cont">
                     <div className="card">
-                        <div className="serv_icon"><TbStethoscope /></div>
+                        <div className="serv_icon"><TbStethoscope className="img"/></div>
                         <h3 className="serv">Healthcare</h3>
                         <p className="serv_tip">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi cum dolores quidem soluta architecto excepturi earum tempore aut velit ratione?
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi cum dolores quidem tempore aut velit ratione?
                         </p>
+                        <HiArrowNarrowRight />
                     </div>
                     <div className="card">
-                        <div className="serv_icon"><TbDna2 /></div>
+                        <div className="serv_icon"><TbDna2 className="img"/></div>
                         <h3 className="serv">Breeding</h3>
                         <p className="serv_tip">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi cum dolores quidem soluta architecto excepturi earum tempore aut velit ratione?
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi cum dolores quidem tempore aut velit ratione?
                         </p>
+                        <HiArrowNarrowRight />
                     </div>
                     <div className="card">
-                        <div className="serv_icon"><SiHomeadvisor /></div>
+                        <div className="serv_icon"><SiHomeadvisor className="img"/></div>
                         <h3 className="serv">Consultation</h3>
                         <p className="serv_tip">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi cum dolores quidem soluta architecto excepturi earum tempore aut velit ratione?
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi cum dolores quidem tempore aut velit ratione?
                         </p>
+                        <HiArrowNarrowRight />
                     </div>
                     <div className="card">
-                        <div className="serv_icon"><TbStethoscope /></div>
+                        <div className="serv_icon">
+                            <img className="img" src={research} />
+                        </div>
                         <h3 className="serv">Research</h3>
                         <p className="serv_tip">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi cum dolores quidem soluta architecto excepturi earum tempore aut velit ratione?
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi cum dolores quidem tempore aut velit ratione?
                         </p>
+                        <HiArrowNarrowRight />
                     </div>
                 </div>
             </section>
