@@ -3,7 +3,7 @@
 }
 
 #footer .container{
-    width: 70%;
+    width: var(--cont_wd);
     margin: 0 auto;
     height: 100%;
     padding: 3em;

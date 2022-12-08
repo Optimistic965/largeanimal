@@ -10,6 +10,8 @@
     --primary: green;
     --logo_ft: 'Xanh Mono', monospace;
     --bdy_ft: 'Nanum Gothic', sans-serif;
+    --cont_wd: 70%;
+    
 }
 
 body{
