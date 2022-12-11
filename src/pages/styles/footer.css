@@ -25,3 +25,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+#footer .first_column a{
+    font-family: var(--logo_ft);
+    color: var(--primary);
+}

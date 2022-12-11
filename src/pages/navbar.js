@@ -14,10 +14,11 @@ export default function Navbar () {
                 </div>
                 <div className="navlist">
                     <ul>
-                       <li> <NavLink to="/"> Home </NavLink> </li>
-                       <li> <NavLink to="/ourteam"> Our Team </NavLink> </li>
+                        <li> <NavLink to="/"> Home </NavLink> </li>
+                        <li> <NavLink to="/ourteam"> Our Team </NavLink> </li>
                         <li> <NavLink to="/gallery"> Gallery </NavLink> </li>
                         <li> <NavLink to="/projects"> Projects </NavLink> </li>
+                        <li> <NavLink to="/contact"> Contact Us </NavLink> </li>
                     </ul>
                 </div>
             </div>

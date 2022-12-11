@@ -5,6 +5,7 @@ import Footer from './pages/footer';
 import Home from './pages/home';
 import Team from './pages/team';
 import Gallery from './pages/gallery';
+import Contact from './pages/contact';
 import Projects from './pages/projects';
 import NotFound from './pages/404';
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="ourteam" element={ <Team />}/>
           <Route path="gallery" element={ <Gallery />}/>
           <Route path="projects" element={ <Projects />}/>
+          <Route path="contact" element={ <Contact />}/>
           <Route path="*" element={ <NotFound />}/>
         </Routes>
       <Footer/>

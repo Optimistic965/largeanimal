@@ -1,7 +1,9 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import "./styles/home.css";
 import video1 from "../media/Cows8.mp4";
 import research from "../media/research.png";
+import Bull from "../media/bull.jpg";
 import {TbStethoscope, TbDna2} from "react-icons/tb";
 import {SiHomeadvisor} from "react-icons/si";
 import {HiArrowNarrowRight} from "react-icons/hi";
@@ -49,7 +51,7 @@ export default function Home(){
                     </div>
                     <div className="card">
                         <div className="serv_icon">
-                            <img className="img" src={research} />
+                            <img className="img" alt="research icon" src={research} />
                         </div>
                         <h3 className="serv">Research</h3>
                         <p className="serv_tip">
@@ -57,6 +59,26 @@ export default function Home(){
                         </p>
                         <HiArrowNarrowRight />
                     </div>
+                </div>
+
+                <button>
+                    <Link to="/our">Our Services</Link>
+                </button>
+                <p>Want to get a free consultation? <Link className="cl_act" to="contact">Contact us</Link> </p>
+            </section>
+            <section className="two_col">
+                <div className="fst_col">
+                    <img src={Bull} alt="cow" />
+                    <div className="foreground"></div>
+                </div>
+                <div className="snd_col">
+                   <div className="snd_col_cont">
+                         <h3>
+                            With experience from top Researchers.
+                        </h3>
+                        <p>His hath is appear be one don't creepeth. Them and one moving the won't may. Moving saw wherein divide bearing called. Green moveth Hath. That it years fruit behold Meat also us third itself made seasons green void give replenish our said saying also spirit give lesser wherein.</p>
+                        <Link to="">Learn More</Link>
+                   </div>
                 </div>
             </section>
        </main>
