@@ -4,9 +4,14 @@ import "./styles/home.css";
 import video1 from "../media/Cows8.mp4";
 import research from "../media/research.png";
 import Bull from "../media/bull.jpg";
+import mem1 from "../media/team/member-1.jpg";
+import mem2 from "../media/team/member-2.jpg";
+import mem3 from "../media/team/member-3.jpg";
+import mem4 from "../media/team/member-4.jpg";
 import {TbStethoscope, TbDna2} from "react-icons/tb";
 import {SiHomeadvisor} from "react-icons/si";
 import {HiArrowNarrowRight} from "react-icons/hi";
+import {FaFacebook, FaInstagram, FaTwitter, FaGlobe} from "react-icons/fa";
 
 
 export default function Home(){
@@ -73,14 +78,124 @@ export default function Home(){
                 </div>
                 <div className="snd_col">
                    <div className="snd_col_cont">
-                         <h3>
+                        <h3>
                             With experience from top Researchers.
                         </h3>
-                        <p>His hath is appear be one don't creepeth. Them and one moving the won't may. Moving saw wherein divide bearing called. Green moveth Hath. That it years fruit behold Meat also us third itself made seasons green void give replenish our said saying also spirit give lesser wherein.</p>
+                        <p>His hath is appear be one don't creepeth.Them and one moving the won't may. Moving saw wherein divide bearing called. Green moveth Hath. That it years fruit behold Meat also us third itself made seasons green void give replenish our said saying also spirit give lesser wherein.</p>
                         <Link to="">Learn More</Link>
                    </div>
                 </div>
             </section>
+            <section className="team_sect">
+                <div className="team_heading">
+                    <div className="col_1">
+                        <h2>Our Team</h2>
+                        <h3>Meet our talented team</h3>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos alias voluptatum unde. Eos quod repellat eaque minima blanditiis a accusamus amet, unde possimus dolores ab vero veritatis provident, voluptatem quos.
+                    </p>
+                </div>
+                <div className="team_slide">
+                    <div className="team_card">
+                        <div className="img_cont">
+                            <img src={mem1} alt="user img" />
+                        </div>
+                        <div className="usr_detail">
+                            <h2>Name</h2>
+                            <h3>Role / Professionalism</h3>
+                            <ul className="social_links">
+                                <li>
+                                    <Link to="#"> <FaFacebook /> </Link>
+                                </li>
+                                <li>
+                                    <Link to="#"> <FaInstagram/> </Link>
+                                </li>
+                                <li>
+                                    <Link to="#"> <FaTwitter/> </Link>
+                                </li>
+                                <li>
+                                    <Link to="#"> <FaGlobe/> </Link>
+                                </li>
+                            </ul>
+                            <Link to=""> Read more...</Link>
+                        </div>
+                    </div>
+                    <div className="team_card">
+                        <div className="img_cont">
+                            <img src={mem2} alt="user img" />
+                        </div>
+                        <div className="usr_detail">
+                            <h2>Name</h2>
+                            <h3>Role / Professionalism</h3>
+                            <ul className="social_links">
+                                <li>
+                                    <Link to="#"> <FaFacebook /> </Link>
+                                </li>
+                                <li>
+                                    <Link to="#"> <FaInstagram/> </Link>
+                                </li>
+                                <li>
+                                    <Link to="#"> <FaTwitter/> </Link>
+                                </li>
+                                <li>
+                                    <Link to="#"> <FaGlobe/> </Link>
+                                </li>
+                            </ul>
+                            <Link to=""> Read more...</Link>
+                        </div>
+                    </div>
+                    <div className="team_card">
+                        <div className="img_cont">
+                            <img src={mem3} alt="user img" />
+                        </div>
+                        <div className="usr_detail">
+                            <h2>Name</h2>
+                            <h3>Role / Professionalism</h3>
+                            <ul className="social_links">
+                                <li>
+                                    <Link to="#"> <FaFacebook /> </Link>
+                                </li>
+                                <li>
+                                    <Link to="#"> <FaInstagram/> </Link>
+                                </li>
+                                <li>
+                                    <Link to="#"> <FaTwitter/> </Link>
+                                </li>
+                                <li>
+                                    <Link to="#"> <FaGlobe/> </Link>
+                                </li>
+                            </ul>
+                            <Link to=""> Read more...</Link>
+                        </div>
+                    </div>
+                    <div className="team_card">
+                        <div className="img_cont">
+                            <img src={mem4} alt="user img" />
+                        </div>
+                        <div className="usr_detail">
+                            <h2>Name</h2>
+                            <h3>Role / Professionalism</h3>
+                            <ul className="social_links">
+                                <li>
+                                    <Link to="#"> <FaFacebook /> </Link>
+                                </li>
+                                <li>
+                                    <Link to="#"> <FaInstagram/> </Link>
+                                </li>
+                                <li>
+                                    <Link to="#"> <FaTwitter/> </Link>
+                                </li>
+                                <li>
+                                    <Link to="#"> <FaGlobe/> </Link>
+                                </li>
+                            </ul>
+                            <Link to="#"> Read more...</Link>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
        </main>
     )
-} 
+}

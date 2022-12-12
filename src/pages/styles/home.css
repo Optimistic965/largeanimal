@@ -33,12 +33,16 @@
     margin-bottom: 1.4em;
 }
 
-.serv_sec > h2{
+.serv_sec > h2, .col_1 h2{
     font-size: 1em;
+    display: inline-block;
+    padding: .3em;
+    background-color: var(--secondary);
+    border-radius: 5px;
 }
 
-.serv_sec > h3{
-    font-size: 2em;
+.serv_sec > h3, .col_1 h3{
+    font-size: 2.4em;
 }
 
 .serv_card_cont{
@@ -103,7 +107,6 @@
 .two_col{
     width: 100%;
     height: 70vh;
-    /* background-color: red; */
     display: flex;
 }
 
@@ -132,11 +135,14 @@
     width: 50%;
     height: 100%;
     padding: 5em;
+    background-image: url("../../media/landing.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .snd_col_cont{
     width: 70%;
-    /* background-color: green; */  
 }
 
 .snd_col_cont h3{
@@ -149,11 +155,99 @@
     margin-bottom: 2em;
 }
 
-.snd_col_cont a{
+.snd_col_cont a, .usr_detail > a{
     font-size: 1em;
     font-weight: bolder;
-    color: red;
+    color: var(--404);
     padding-bottom: .3em;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid var(--404);
+}
 
+.snd_col_cont a:hover, .usr_detail > a:hover{
+    color: var(--primary);
+    border-color: var(--lyt_pry);
+}
+
+.team_sect{
+    width: 100%;
+    height: 80vh;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.team_sect .team_heading{
+    width: var(--cont_wd);
+    margin: 0 auto;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.team_heading .col_1{
+    width: 40%;
+}
+
+.team_heading p{
+    width: 50%;
+    font-size: 1.2em;
+}
+
+.team_slide{
+    width: var(--cont_wd);
+    height: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team_slide .team_card{
+    width: 24%;
+    height: 90%;
+    text-align: center;
+}
+
+.team_slide ul{
+    list-style-type: none;
+}
+.img_cont{
+    width: 100%;
+    height: 70%;
+}
+
+.img_cont img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2em;
+}
+
+.team_card .usr_detail{
+    width: 100%;
+    margin-top: .2em;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.usr_detail > a{
+    width: 100px;
+}
+
+.usr_detail .social_links{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social_links a{
+    color: var(--primary);
+}
+
+.social_links a:hover{
+    color: var(--lyt_pry);
 }
