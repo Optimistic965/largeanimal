@@ -171,18 +171,18 @@ export default function Home(){
                     </div>
                     <div className="team_card">
                         <div className="img_cont">
-                            <img src={mem4} alt="user img" />
-                        </div>
-                        <div className="usr_detail">
-                            <h2>Name</h2>
-                            <h3>Role / Professionalism</h3>
-                            <ul className="social_links">
-                                <li>
-                                    <Link to="#"> <FaFacebook /> </Link>
-                                </li>
-                                <li>
-                                    <Link to="#"> <FaInstagram/> </Link>
-                                </li>
+                                <img src={mem4} alt="user img" />
+                            </div>
+                            <div className="usr_detail">
+                                <h2>Name</h2>
+                                <h3>Role / Professionalism</h3>
+                                <ul className="social_links">
+                                    <li>
+                                        <Link to="#"> <FaFacebook /> </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="#"> <FaInstagram/> </Link>
+                                    </li>
                                 <li>
                                     <Link to="#"> <FaTwitter/> </Link>
                                 </li>
